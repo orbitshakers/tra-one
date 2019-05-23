@@ -1,0 +1,486 @@
+[
+	{
+		"title": "Home",
+		"groupTitle": true
+	},
+	{
+		"title": "Home",
+		"icon": {
+			"class": "fa fa-home",
+			"bg": "#ea8080",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"routing": ""
+	},
+	{
+		"title": "Download PDF Assessment ",
+		"icon": {
+			"class": "fa fa-cloud-download",
+			"bg": "#FF8A65",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"routing": "/tra"
+	},	
+	
+	
+	{
+		"title": "Web Assessment",
+		"groupTitle": true
+	},
+	{
+		"title": "Core Readiness",
+		"numberIcon": {
+			"num": "1",
+			"bg": "#FF8A65",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"routing": "/tra/dom01",
+		"sub": [
+			{
+				"title": "1.1 Need for Telehealth",
+				"routing": "/tra/dom01/concept01"
+			},
+			{
+				"title": "1.2 Organizational Leadership Buy-in",
+				"routing": "/tra/dom01/concept02"
+			}
+		]
+	},
+	{
+		"title": "2. Financial Considerations",
+		"number": "2",
+		"routing": "/tra/dom02"
+	},
+	{
+		"title": "3. Operations",
+		"number": "3",
+		"routing": "/tra/dom03",
+		"sub": [
+			{
+				"title": "3.1 Telehealth Roles",
+				"routing": "/tra/dom03/concept01"
+			},
+			{
+				"title": "3.2 Scheduling and Workflow",
+				"routing": "/tra/dom03/concept02"
+			},
+			{
+				"title": "3.3 Operational Requirements",
+				"routing": "/tra/dom03/concept03"
+			},
+			{
+				"title": "3.4 Assessment Approach",
+				"routing": "/tra/dom03/concept04"
+			},
+			{
+				"title": "3.5 Technology",
+				"routing": "/tra/dom03/concept05"
+			},
+			{
+				"title": "3.6 Physical Space",
+				"routing": "/tra/dom03/concept06"
+			}
+		]
+		
+	},
+	{
+		"title": "4. Staff Engagement",
+		"number": "4",
+		"routing": "/tra/dom04",
+		"sub": [
+			{
+				"title": "4.1 Education and Awareness",
+				"routing": "/tra/dom04/concept01"
+			},
+			{
+				"title": "4.2 Innovators and Champions",
+				"routing": "/tra/dom04/concept02"
+			}
+		]
+		
+	},
+	{
+		"title": "5. Patient Readiness",
+		"number": "5",
+		"routing": "/tra/dom05",
+		"sub": [
+			{
+				"title": "5.1 Patient Engagement",
+				"routing": "/tra/dom05/concept01"
+			},
+			{
+				"title": "5.2 Health Literacy",
+				"routing": "/tra/dom05/concept02"
+			}
+		]
+		
+	},
+	
+	{
+		"title": "Widgets",
+		"icon": {
+			"class": "fa fa-th",
+			"bg": "#E1BEE7",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"routing": "/widgets"
+	},
+	{
+		"title": "Calendar",
+		"icon": {
+			"class": "fa fa-calendar",
+			"bg": "#C5CAE9",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"routing": "/calendar"
+	},
+	{
+		"title": "Layouts",
+		"icon": {
+			"class": "fa fa-columns",
+			"bg": "#FF8A65",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"routing": "/dashboard",
+		"badge": {
+			"text": "5",
+			"color": "#fff",
+			"bg": "#43A047"
+		},
+		"sub": [
+			{
+				"title": "Default",
+				"routing": "/layouts"
+			},
+			{
+				"title": "Compressed menu",
+				"routing": "/default-c-layout/layouts"
+			},
+			{
+				"title": "Boxed",
+				"routing": "/boxed-layout/layouts"
+			},
+			{
+				"title": "Boxed compressed menu",
+				"routing": "/boxed-c-layout/layouts"
+			},
+			{
+				"title": "Extra",
+				"routing": "/extra-layout/sign-in"
+			}
+		]
+	},
+	{
+		"title": "UI Elements",
+		"groupTitle": true
+	},
+	{
+		"title": "Material components",
+		"icon": {
+			"class": "fa fa-briefcase",
+			"bg": "#B3E5FC",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"sub": [
+			{
+				"title": "Button",
+				"routing": "/button"
+			},
+			{
+				"title": "Card",
+				"routing": "/card"
+			},
+			{
+				"title": "Checkbox",
+				"routing": "/checkbox"
+			},
+			{
+				"title": "Chips",
+				"routing": "/chips"
+			},
+			{
+				"title": "Dialog",
+				"routing": "/dialog"
+			},
+			{
+				"title": "Icon",
+				"routing": "/icon"
+			},
+			{
+				"title": "Input",
+				"routing": "/input"
+			},
+			{
+				"title": "List",
+				"routing": "/list"
+			},
+			{
+				"title": "Menu",
+				"routing": "/menu"
+			},
+			{
+				"title": "Progress bar",
+				"routing": "/progress-bar"
+			},
+			{
+				"title": "Progress spinner",
+				"routing": "/progress-spinner"
+			},
+			{
+				"title": "Radio Button",
+				"routing": "/radio-button"
+			},
+			{
+				"title": "Select",
+				"routing": "/select"
+			},
+			{
+				"title": "Slider",
+				"routing": "/slider"
+			},
+			{
+				"title": "Slide toggle",
+				"routing": "/slide-toggle"
+			},
+			{
+				"title": "Snackbar",
+				"routing": "/snackbar"
+			},
+			{
+				"title": "Tabs",
+				"routing": "/tabs"
+			},
+			{
+				"title": "Toolbar",
+				"routing": "/toolbar"
+			},
+			{
+				"title": "Tooltip",
+				"routing": "/tooltip"
+			}
+		]
+	},
+	{
+		"title": "Theme components",
+		"icon": {
+			"class": "fa fa-diamond",
+			"bg": "#B2DFDB",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"sub": [
+			{
+				"title": "Alerts",
+				"routing": "/ni-alerts"
+			},
+			{
+				"title": "Badges",
+				"routing": "/ni-badges"
+			},
+			{
+				"title": "Breadcrumbs",
+				"routing": "/ni-breadcrumbs"
+			},
+			{
+				"title": "Buttons",
+				"routing": "/ni-buttons"
+			},
+			{
+				"title": "Cards",
+				"routing": "/ni-cards"
+			},
+			{
+				"title": "Chat",
+				"routing": "/ni-chat"
+			},
+			{
+				"title": "Files",
+				"routing": "/ni-files"
+			},
+			{
+				"title": "Vertical timeline",
+				"routing": "/ni-v-timeline"
+			}
+		]
+	},
+	{
+		"title": "Typography",
+		"icon": {
+			"class": "fa fa-font",
+			"bg": "#F0F4C3",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"routing": "/typography"
+	},
+	{
+		"title": "Tables",
+		"icon": {
+			"class": "fa fa-table",
+			"bg": "#FFE082",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"sub": [
+			{
+				"title": "Simple table",
+				"routing": "/simple-table"
+			},
+			{
+				"title": "Sorting table",
+				"routing": "/sorting-table"
+			},
+			{
+				"title": "Filtering table",
+				"routing": "/filtering-table"
+			},
+			{
+				"title": "Pagination table",
+				"routing": "/pagination-table"
+			},
+			{
+				"title": "Bootstrap tables",
+				"routing": "/bootstrap-tables"
+			}
+		]
+	},
+	{
+		"title": "Forms",
+		"icon": {
+			"class": "fa fa-check-square-o",
+			"bg": "#FFCCBC",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"sub": [
+			{
+				"title": "Form Elements",
+				"routing": "/form-elements"
+			},
+			{
+				"title": "Form Layout",
+				"routing": "/form-layout"
+			},
+			{
+				"title": "Form Validation",
+				"routing": "/form-validation"
+			}
+		]
+	},
+	{
+		"title": "Charts",
+		"icon": {
+			"class": "fa fa-pie-chart",
+			"bg": "#BCAAA4",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"sub": [
+			{
+				"title": "Ng2 Charts",
+				"routing": "/ng2-charts"
+			},
+			{
+				"title": "Ngx Charts",
+				"routing": "/ngx-charts"
+			},
+			{
+				"title": "Amcharts",
+				"routing": "/amcharts"
+			}
+		]
+	},
+	{
+		"title": "Maps",
+		"icon": {
+			"class": "fa fa-map-marker",
+			"bg": "#9E9E9E",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"sub": [
+			{
+				"title": "Google map",
+				"routing": "/google-map"
+			},
+			{
+				"title": "Leaflet map",
+				"routing": "/leaflet-map"
+			}
+		]
+	},
+	{
+		"title": "Pages",
+		"groupTitle": true
+	},
+	{
+		"title": "Pages service",
+		"icon": {
+			"class": "fa fa-edit",
+			"bg": "#FFAB91",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"sub": [
+			{
+				"title": "About Us",
+				"routing": "/about-us"
+			},
+			{
+				"title": "FAQ",
+				"routing": "/faq"
+			},
+			{
+				"title": "TimeLine",
+				"routing": "/timeline"
+			},
+			{
+				"title": "Invoice",
+				"routing": "/invoice"
+			}
+		]
+	},
+	{
+		"title": "Extra pages",
+		"icon": {
+			"class": "fa fa-clone",
+			"bg": "#B0BEC5",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"sub": [
+			{
+				"title": "Sign In v1",
+				"routing": "/extra-layout/sign-in"
+			},
+			{
+				"title": "Sign In v2",
+				"routing": "/sign-in"
+			},
+			{
+				"title": "Sign In with Social",
+				"routing": "/extra-layout/sign-in-social"
+			},
+			{
+				"title": "Sign Up v1",
+				"routing": "/extra-layout/sign-up"
+			},
+			{
+				"title": "Sign Up v2",
+				"routing": "/sign-up"
+			},
+			{
+				"title": "Forgot password",
+				"routing": "/extra-layout/forgot"
+			},
+			{
+				"title": "Confirm email",
+				"routing": "/extra-layout/confirm"
+			},
+			{
+				"title": "404",
+				"routing": "/extra-layout/page-404"
+			},
+			{
+				"title": "500",
+				"routing": "/extra-layout/page-500"
+			},
+			{
+				"title": "Not found",
+				"routing": "/not-found"
+			}
+		]
+	}
+]
