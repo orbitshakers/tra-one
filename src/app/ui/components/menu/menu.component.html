@@ -35,9 +35,9 @@
     			<!-- The icon that will wrap the number -->
     			<span class="icon-wrap fa-stack" *ngIf="item.numberIcon">
     				<span class="fa fa-circle fa-stack-2x" [ngStyle]="getNumberBackground(item.numberIcon)"></span>
-    				<strong class="fa-stack-1x"  [ngStyle]="getNumberColor(item.numberIcon)">
+    				<span class="fa-stack-1x"  [ngStyle]="getNumberColor(item.numberIcon)">
 	        			{{item.numberIcon.num}}   
-    				</strong>
+    				</span>
 				</span>
 
 			  <i class="icon-wrap {{ item.icon.class }}" *ngIf="!item.numberIcon && item.icon && item.icon.class" [ngStyle]="getStyles(item.icon)"></i>

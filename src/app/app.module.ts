@@ -16,6 +16,8 @@ import { DefaultCLayoutComponent }          from './layouts/default-c/default-c.
 import { BoxedCLayoutComponent }            from './layouts/boxed-c/boxed-c.component';
 import { ExtraLayoutComponent }             from './layouts/extra/extra.component';
 
+import { DomCoreComponent }                 from './tra/dom-core/dom-core.component';
+
 @NgModule({
   declarations : [
     AppComponent,
@@ -23,7 +25,9 @@ import { ExtraLayoutComponent }             from './layouts/extra/extra.componen
     BoxedLayoutComponent,
     DefaultCLayoutComponent,
     BoxedCLayoutComponent,
-    ExtraLayoutComponent
+    ExtraLayoutComponent,
+    
+    DomCoreComponent
   ],
   imports: [
     BrowserModule,

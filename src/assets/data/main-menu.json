@@ -28,10 +28,19 @@
 		"groupTitle": true
 	},
 	{
+		"title": "Start Assessment",
+		"icon": {
+			"class": "fa fa-play",
+			"bg": "#E1BEE7",
+			"color": "rgba(0,0,0,.87)"
+		},
+		"routing": "/tra/start"
+	},
+	{
 		"title": "Core Readiness",
 		"numberIcon": {
 			"num": "1",
-			"bg": "#FF8A65",
+			"bg": "#C5CAE9",
 			"color": "rgba(0,0,0,.87)"
 		},
 		"routing": "/tra/dom01",
@@ -47,13 +56,21 @@
 		]
 	},
 	{
-		"title": "2. Financial Considerations",
-		"number": "2",
+		"title": "Financial Considerations",
+		"numberIcon": {
+			"num": "2",
+			"bg": "#C5CAE9",
+			"color": "rgba(0,0,0,.87)"
+		},
 		"routing": "/tra/dom02"
 	},
 	{
-		"title": "3. Operations",
-		"number": "3",
+		"title": "Operations",
+		"numberIcon": {
+			"num": "3",
+			"bg": "#C5CAE9",
+			"color": "rgba(0,0,0,.87)"
+		},
 		"routing": "/tra/dom03",
 		"sub": [
 			{
@@ -84,8 +101,12 @@
 		
 	},
 	{
-		"title": "4. Staff Engagement",
-		"number": "4",
+		"title": "Staff Engagement",
+		"numberIcon": {
+			"num": "4",
+			"bg": "#C5CAE9",
+			"color": "rgba(0,0,0,.87)"
+		},
 		"routing": "/tra/dom04",
 		"sub": [
 			{
@@ -100,8 +121,12 @@
 		
 	},
 	{
-		"title": "5. Patient Readiness",
-		"number": "5",
+		"title": "Patient Readiness",
+		"numberIcon": {
+			"num": "5",
+			"bg": "#C5CAE9",
+			"color": "rgba(0,0,0,.87)"
+		},
 		"routing": "/tra/dom05",
 		"sub": [
 			{
@@ -117,23 +142,15 @@
 	},
 	
 	{
-		"title": "Widgets",
+		"title": "Assessment Score",
 		"icon": {
-			"class": "fa fa-th",
+			"class": "fa fa-stop",
 			"bg": "#E1BEE7",
 			"color": "rgba(0,0,0,.87)"
 		},
-		"routing": "/widgets"
+		"routing": "/tra/score"
 	},
-	{
-		"title": "Calendar",
-		"icon": {
-			"class": "fa fa-calendar",
-			"bg": "#C5CAE9",
-			"color": "rgba(0,0,0,.87)"
-		},
-		"routing": "/calendar"
-	},
+
 	{
 		"title": "Layouts",
 		"icon": {
@@ -257,149 +274,6 @@
 			{
 				"title": "Tooltip",
 				"routing": "/tooltip"
-			}
-		]
-	},
-	{
-		"title": "Theme components",
-		"icon": {
-			"class": "fa fa-diamond",
-			"bg": "#B2DFDB",
-			"color": "rgba(0,0,0,.87)"
-		},
-		"sub": [
-			{
-				"title": "Alerts",
-				"routing": "/ni-alerts"
-			},
-			{
-				"title": "Badges",
-				"routing": "/ni-badges"
-			},
-			{
-				"title": "Breadcrumbs",
-				"routing": "/ni-breadcrumbs"
-			},
-			{
-				"title": "Buttons",
-				"routing": "/ni-buttons"
-			},
-			{
-				"title": "Cards",
-				"routing": "/ni-cards"
-			},
-			{
-				"title": "Chat",
-				"routing": "/ni-chat"
-			},
-			{
-				"title": "Files",
-				"routing": "/ni-files"
-			},
-			{
-				"title": "Vertical timeline",
-				"routing": "/ni-v-timeline"
-			}
-		]
-	},
-	{
-		"title": "Typography",
-		"icon": {
-			"class": "fa fa-font",
-			"bg": "#F0F4C3",
-			"color": "rgba(0,0,0,.87)"
-		},
-		"routing": "/typography"
-	},
-	{
-		"title": "Tables",
-		"icon": {
-			"class": "fa fa-table",
-			"bg": "#FFE082",
-			"color": "rgba(0,0,0,.87)"
-		},
-		"sub": [
-			{
-				"title": "Simple table",
-				"routing": "/simple-table"
-			},
-			{
-				"title": "Sorting table",
-				"routing": "/sorting-table"
-			},
-			{
-				"title": "Filtering table",
-				"routing": "/filtering-table"
-			},
-			{
-				"title": "Pagination table",
-				"routing": "/pagination-table"
-			},
-			{
-				"title": "Bootstrap tables",
-				"routing": "/bootstrap-tables"
-			}
-		]
-	},
-	{
-		"title": "Forms",
-		"icon": {
-			"class": "fa fa-check-square-o",
-			"bg": "#FFCCBC",
-			"color": "rgba(0,0,0,.87)"
-		},
-		"sub": [
-			{
-				"title": "Form Elements",
-				"routing": "/form-elements"
-			},
-			{
-				"title": "Form Layout",
-				"routing": "/form-layout"
-			},
-			{
-				"title": "Form Validation",
-				"routing": "/form-validation"
-			}
-		]
-	},
-	{
-		"title": "Charts",
-		"icon": {
-			"class": "fa fa-pie-chart",
-			"bg": "#BCAAA4",
-			"color": "rgba(0,0,0,.87)"
-		},
-		"sub": [
-			{
-				"title": "Ng2 Charts",
-				"routing": "/ng2-charts"
-			},
-			{
-				"title": "Ngx Charts",
-				"routing": "/ngx-charts"
-			},
-			{
-				"title": "Amcharts",
-				"routing": "/amcharts"
-			}
-		]
-	},
-	{
-		"title": "Maps",
-		"icon": {
-			"class": "fa fa-map-marker",
-			"bg": "#9E9E9E",
-			"color": "rgba(0,0,0,.87)"
-		},
-		"sub": [
-			{
-				"title": "Google map",
-				"routing": "/google-map"
-			},
-			{
-				"title": "Leaflet map",
-				"routing": "/leaflet-map"
 			}
 		]
 	},

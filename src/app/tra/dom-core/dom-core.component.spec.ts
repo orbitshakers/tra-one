@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageFaqComponent } from './faq.component';
+import { PageFaqComponent } from '../../pages/pages-service/faq/faq.component';
 
 describe('PageFaqComponent', () => {
   let component: PageFaqComponent;

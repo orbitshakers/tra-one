@@ -72,6 +72,8 @@ import { PageLeafletMapComponent }      from './pages/maps/leaflet-map/leaflet-m
 import { PageWidgetsComponent }         from './pages/widgets/widgets.component';
 import { PageLayoutsComponent }         from './pages/layouts/layouts.component';
 
+import { DomCoreComponent }             from './tra/dom-core/dom-core.component';
+
 const defaultRoutes: Routes = [
   { path: '', component: PageDashboardComponent },
   { path: 'dashboard-2', component: PageDashboard2Component },
@@ -151,12 +153,23 @@ const extraRoutes: Routes = [
   { path: 'page-500', component: Page500Component },
 ];
 
+export const traRoutes: Routes =  [
+  { path: 'dom-core', component: DomCoreComponent },
+];
+
 export const routes: Routes = [
   {
     path: '',
     component: DefaultLayoutComponent,
     children: defaultRoutes
   },
+  
+  {
+    path: 'tra',
+    component: DomCoreComponent,
+    children: defaultRoutes    
+  },
+  
   {
     path: 'default-c-layout',
     component: DefaultCLayoutComponent,
